@@ -1394,6 +1394,69 @@ a {
 .cid-uopIirfytT .mbr-section-btn {
   text-align: left;
 }
+.cid-uosDcFlroX {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #edefeb;
+}
+.cid-uosDcFlroX .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uosDcFlroX .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uosDcFlroX .card-wrapper {
+  overflow: hidden;
+  background: #ffffff;
+}
+.cid-uosDcFlroX .text-wrapper {
+  padding: 4rem 3rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-uosDcFlroX .text-wrapper {
+    padding: 2.25rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uosDcFlroX .text-wrapper {
+    padding: 1.5rem;
+  }
+}
+.cid-uosDcFlroX .row {
+  align-items: center;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+.cid-uosDcFlroX .image-wrapper {
+  padding: 0 1rem;
+}
+.cid-uosDcFlroX img,
+.cid-uosDcFlroX .image-wrapper {
+  height: 600px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-uosDcFlroX img,
+  .cid-uosDcFlroX .image-wrapper {
+    max-height: 350px;
+  }
+}
+.cid-uosDcFlroX .mbr-section-title {
+  color: #000000;
+}
+.cid-uosDcFlroX .mbr-text {
+  color: #000000;
+}
+.cid-uosDcFlroX .mbr-text,
+.cid-uosDcFlroX .mbr-section-btn {
+  text-align: left;
+}
 .cid-uopIirfeLo {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1526,6 +1589,7 @@ a {
 }
 .cid-uopIirfCaQ .panel-text {
   color: #000000;
+  text-align: center;
 }
 .cid-uopIirfCaQ .mbr-section-title {
   text-align: center;
@@ -2135,47 +2199,6 @@ a {
   display: flex;
   justify-content: center;
 }
-.cid-uopIiriolM {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-uopIiriolM .social-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.cid-uopIiriolM .social-row .soc-item {
-  margin: 8px;
-}
-.cid-uopIiriolM .social-row .soc-item a:hover .mbr-iconfont,
-.cid-uopIiriolM .social-row .soc-item a:focus .mbr-iconfont {
-  background-color: #f7f7f7;
-}
-.cid-uopIiriolM .social-row .soc-item a .mbr-iconfont {
-  width: 72px;
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  font-size: 32px;
-  background-color: #f7f7f7;
-  color: #393193;
-  transition: all 0.3s ease-in-out;
-}
-.cid-uopIiriolM .row-links {
-  width: 100%;
-  justify-content: center;
-}
-.cid-uopIiriolM .mbr-section-title {
-  color: #ffffff;
-}
-.cid-uopIiriolM .mbr-section-title,
-.cid-uopIiriolM .social-list {
-  color: #000000;
-}
 .cid-uopIirjUiH {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -2285,7 +2308,7 @@ a {
 }
 .cid-uopIirj9Eb .item-wrapper {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #d19c00;
   pointer-events: fill;
   padding: 2.25rem;
 }
@@ -2342,6 +2365,13 @@ a {
     position: static;
   }
 }
+.cid-uopIirj9Eb .cardTitle {
+  color: #ffffff;
+}
+.cid-uopIirj9Eb .list,
+.cid-uopIirj9Eb .item-wrap {
+  color: #f7f7f7;
+}
 .cid-uopIirjBuv {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2397,4 +2427,7 @@ a {
 }
 .cid-uopIirjBuv .mbr-section-title {
   color: #ffffff;
+}
+.cid-uopIirjBuv header-menu-item {
+  text-align: center;
 }
